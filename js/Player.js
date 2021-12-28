@@ -21,7 +21,7 @@ class Player {
       positionY: this.positionY,
     });
   }
-  //TA
+  //AM
   getDistance() {
     var playerDistanceRef = database.ref("players/player" + this.index);
     playerDistanceRef.on("value", data => {

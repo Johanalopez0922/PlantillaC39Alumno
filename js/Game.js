@@ -14,7 +14,7 @@ class Game {
     });
   }
 
-  // TA
+  // AM
   start() {
     player = new Player();
     playerCount = player.getCount();
@@ -40,7 +40,7 @@ class Game {
     form.titleImg.class("gameTitleAfterEffect");
   }
 
-  //SA
+  //AA
   play() {
     this.handleElements();
 
